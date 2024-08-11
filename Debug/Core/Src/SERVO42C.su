@@ -1,0 +1,23 @@
+../Core/Inc/utils.hpp:19:5:String::String(const char*)	16	static
+../Core/Inc/SERVO42C.hpp:37:5:PulseMotor::PulseMotor(TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t)	24	static
+../Core/Inc/SERVO42C.hpp:45:14:uint16_t PulseMotor::getFrequency()	16	static
+../Core/Inc/SERVO42C.hpp:51:10:void PulseMotor::setFrequency(uint16_t)	16	static
+../Core/Inc/SERVO42C.hpp:63:10:void PulseMotor::setDirection(uint8_t)	16	static
+../Core/Inc/SERVO42C.hpp:68:10:void PulseMotor::pulse(uint16_t)	16	static
+../Core/Inc/SERVO42C.hpp:98:10:void PulseMotor::step(uint8_t, uint32_t)	96	static
+../Core/Inc/SERVO42C.hpp:154:14:uint32_t SERVO42C_Pulse::getStepCountFromTargetPosition(float, uint8_t&)	48	static
+../Core/Inc/SERVO42C.hpp:186:11:float SERVO42C_Pulse::frequencyToSpeed(uint16_t)	16	static
+../Core/Inc/SERVO42C.hpp:193:11:float SERVO42C_Pulse::speedToFrequency(float)	32	static
+../Core/Inc/SERVO42C.hpp:201:11:float SERVO42C_Pulse::stepcountToDistance(uint32_t)	24	static
+../Core/Inc/SERVO42C.hpp:206:5:SERVO42C_Pulse::SERVO42C_Pulse(TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t)	32	static
+../Core/Inc/SERVO42C.hpp:210:11:float SERVO42C_Pulse::getPosition()	24	static
+../Core/Inc/SERVO42C.hpp:221:11:float SERVO42C_Pulse::getSpeed()	16	static
+../Core/Inc/SERVO42C.hpp:225:10:void SERVO42C_Pulse::setSpeed(float)	24	static
+../Core/Inc/SERVO42C.hpp:332:5:SERVO42C_UART::SERVO42C_UART(uint8_t, UART_HandleTypeDef*, const SERVO42C_Pulse&)	32	static
+/Applications/STM32CubeIDE 2.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:75:3:constexpr float std::abs(float)	16	static
+/Applications/STM32CubeIDE 2.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/arm-none-eabi/include/c++/10.3.1/cmath:463:3:constexpr float std::sqrt(float)	16	static
+../Core/Src/SERVO42C.cpp:20:6:void step3d(uint32_t, uint8_t, uint32_t, uint8_t, uint32_t, uint8_t, float)	80	static
+../Core/Src/SERVO42C.cpp:67:6:void step_inf3d(uint32_t, uint8_t, uint32_t, uint8_t, uint32_t, uint8_t, float)	64	static
+../Core/Src/SERVO42C.cpp:92:6:void setPosition3d(float, float, float, float)	56	static
+../Core/Src/SERVO42C.cpp:101:1:void __static_initialization_and_destruction_0(int, int)	24	static
+../Core/Src/SERVO42C.cpp:101:1:cpp)	8	static

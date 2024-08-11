@@ -30,7 +30,7 @@ Core/Src/esp8266.o: ../Core/Src/esp8266.c ../Core/Inc/esp8266.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Inc/bsp_usart.h ../Core/Inc/printf.h ../Core/Inc/lcdtp.h \
  ../Core/Inc/dht11.h ../Core/Inc/printf.h ../Core/Inc/ring_buffer.h \
- ../Core/Inc/rtc.h
+ ../Core/Inc/rtc.h ../Core/Inc/main.h
 ../Core/Inc/esp8266.h:
 ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h:
@@ -68,3 +68,4 @@ Core/Src/esp8266.o: ../Core/Src/esp8266.c ../Core/Inc/esp8266.h \
 ../Core/Inc/printf.h:
 ../Core/Inc/ring_buffer.h:
 ../Core/Inc/rtc.h:
+../Core/Inc/main.h:

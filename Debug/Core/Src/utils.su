@@ -1,0 +1,5 @@
+../Core/Inc/utils.hpp:16:5:String::String()	16	static
+../Core/Src/utils.cpp:5:8:String operator+(const char*, const String&)	24	static
+../Core/Src/utils.cpp:12:6:void printToLCD(const String&, uint16_t)	40	static
+../Core/Src/utils.cpp:19:6:void printArray(const uint8_t*, int, int)	48	static
+../Core/Src/utils.cpp:29:6:void debugLog(const String&, uint16_t)	16	static

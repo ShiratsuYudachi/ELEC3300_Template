@@ -29,9 +29,9 @@ Core/Src/UI.o: ../Core/Src/UI.c ../Core/Inc/UI.h ../Core/Inc/xpt2046.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Inc/dht11.h ../Core/Inc/printf.h ../Core/Inc/lcdtp.h \
- ../Core/Inc/rtc.h ../Core/Inc/pet.h ../Core/Inc/alarm.h \
- ../Core/Inc/buzzer.h ../Core/Inc/rtc.h ../Core/Inc/pet.h \
- ../Core/Inc/esp8266.h
+ ../Core/Inc/rtc.h ../Core/Inc/main.h ../Core/Inc/pet.h \
+ ../Core/Inc/alarm.h ../Core/Inc/buzzer.h ../Core/Inc/rtc.h \
+ ../Core/Inc/pet.h ../Core/Inc/esp8266.h
 ../Core/Inc/UI.h:
 ../Core/Inc/xpt2046.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
@@ -67,6 +67,7 @@ Core/Src/UI.o: ../Core/Src/UI.c ../Core/Inc/UI.h ../Core/Inc/xpt2046.h \
 ../Core/Inc/printf.h:
 ../Core/Inc/lcdtp.h:
 ../Core/Inc/rtc.h:
+../Core/Inc/main.h:
 ../Core/Inc/pet.h:
 ../Core/Inc/alarm.h:
 ../Core/Inc/buzzer.h:
